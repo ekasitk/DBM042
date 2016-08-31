@@ -1,0 +1,10 @@
+68.106.193.42,-,-,2003-05-01 13:58:39,GET,/random/video/Star_Wars_Kid.wmv,HTTP/1.1,302,307,-,Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)
+68.106.193.42,-,-,2003-05-01 13:58:40,GET,/random/video/Star_Wars_Kid.php,HTTP/1.1,302,13,-,Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)
+216.76.136.81,-,-,2003-05-01 13:58:44,GET,/index.rdf,HTTP/1.1,304,0,-,Syndirella/0.91pre
+192.195.176.82,-,-,2003-05-01 13:58:47,GET,/archive/cat/video/index.shtml,HTTP/1.1,200,16069,http://www.waxy.org/archive/cat/rant/index.shtml,Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+12.212.69.20,-,-,2003-05-01 13:58:50,GET,/archive/2003/04/29/star_war.shtml,HTTP/1.1,200,16874,http://blogdex.media.mit.edu/,Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.0.1) Gecko/20030306 Camino/0.7
+64.140.49.66,-,-,2003-05-01 13:59:00,GET,/mefi/index.cgi,HTTP/1.0,200,6701,-,TurnitinBot/1.5 http://www.turnitin.com/robot/crawlerinfo.html
+68.66.205.108,-,-,2003-05-01 13:59:06,GET,/,HTTP/1.1,200,63760,-,Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; YComp 5.0.2.6; .NET CLR 1.0.3705)
+202.154.68.174,-,-,2003-05-01 13:59:08,GET,/random/video/Star_Wars_Kid_Remix.wmv,HTTP/1.1,302,313,http://www.waxy.org/archive/2003/04/29/star_war.shtml,Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0)
+202.154.68.174,-,-,2003-05-01 13:59:08,GET,/random/video/Star_Wars_Kid_Remix.php,HTTP/1.1,302,13,http://www.waxy.org/archive/2003/04/29/star_war.shtml,Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0)
+216.165.64.187,-,-,2003-05-01 13:59:08,GET,/random/video/Star_Wars_Kid.wmv,HTTP/1.1,302,307,-,Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)

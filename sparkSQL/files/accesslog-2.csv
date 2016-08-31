@@ -1,0 +1,5 @@
+64.65.66.66,-,-,2003-05-01 13:59:00,GET,/mefi/index.cgi,HTTP/1.0,200,6701,-,TurnitinBot/1.5 http://www.turnitin.com/robot/crawlerinfo.html
+68.66.66.77,-,-,2003-05-01 13:59:06,GET,/,HTTP/1.1,200,63760,-,Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; YComp 5.0.2.6; .NET CLR 1.0.3705)
+202.154.68.19,-,-,2003-05-01 13:59:08,GET,/random/video/Star_Wars_Kid_Remix.wmv,HTTP/1.1,302,313,http://www.waxy.org/archive/2003/04/29/star_war.shtml,Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0)
+202.69.68.174,-,-,2003-05-01 13:59:08,GET,/random/video/Star_Wars_Kid_Remix.php,HTTP/1.1,302,13,http://www.waxy.org/archive/2003/04/29/star_war.shtml,Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0)
+216.33.64.187,-,-,2003-05-01 13:59:08,GET,/random/video/Star_Wars_Kid.wmv,HTTP/1.1,302,307,-,Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
