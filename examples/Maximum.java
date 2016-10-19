@@ -12,7 +12,9 @@ public class Maximum {
       SparkConf conf = new SparkConf().setAppName("Maximum");
       JavaSparkContext jsc = new JavaSparkContext(conf);
       
-      JavaRDD<String> dataRdd = jsc.textFile("/dataset/randoms.txt");
+      // EDIT HERE                       
+      // Read randoms.txt file from HDFS 
+      JavaRDD<String> dataRdd = jsc.textFile("test.txt");
 
       JavaRDD<Integer> newRdd = dataRdd.map(new Function<String,Integer>() {
          public Integer call(String str) {
@@ -22,8 +24,9 @@ public class Maximum {
 
       Integer sum = newRdd.reduce( new Function2<Integer,Integer,Integer>() {
          public Integer call(Integer a, Integer b) {
-            // Return the maximum between a and b
-            return a > b ? a : b; 
+            // EDIT HERE   
+            // Return the maximum between a and b 
+            return 0;
          }
       });  
       System.out.println(sum);

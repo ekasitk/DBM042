@@ -1,2 +1,5 @@
 *.jar
 *.class
+*.tgz
+*.tar.gz
+*.zip

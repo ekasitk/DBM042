@@ -12,7 +12,9 @@ public class Sort {
       SparkConf conf = new SparkConf().setAppName("Sort");
       JavaSparkContext jsc = new JavaSparkContext(conf);
       
-      JavaRDD<String> dataRdd = jsc.textFile("/dataset/randoms.txt");
+      // EDIT HERE
+      // Read randoms.txt file from HDFS
+      JavaRDD<String> dataRdd = jsc.textFile("test.txt");
 
       JavaRDD<Integer> newRdd = dataRdd.map(new Function<String,Integer>() {
          public Integer call(String str) {
@@ -20,7 +22,9 @@ public class Sort {
          }
       }); 
 
-      // Create function object
+      // EDIT HERE
+      // Create function object that receives an integer and simply returns
+      //    that integer
 /*
       Function<Integer,Integer> identity = new Function<Integer,Integer>() {
 

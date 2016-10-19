@@ -1,0 +1,26 @@
+<configuration>
+  <property>
+    <name>dfs.namenode.secondary.http-address</name>
+    <value>spark-master:50090</value>
+  </property>
+  <property>
+    <name>dfs.namenode.name.dir</name>
+    <value>/home/spark/hdfs/namenode</value>
+  </property>
+  <property>
+    <name>dfs.datanode.data.dir</name>
+    <value>/home/spark/hdfs/datanode</value>
+  </property>
+  <property>
+    <name>dfs.namenode.checkpoint.dir</name>
+    <value>/home/spark/hdfs/secondarynamenode</value>
+  </property>
+  <property>
+    <name>dfs.hosts</name>
+    <value>/home/spark/hadoop-2.6.0/etc/hadoop/slaves</value>
+  </property>
+  <property>
+    <name>dfs.replication</name>
+    <value>1</value>
+  </property>
+</configuration>
