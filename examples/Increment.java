@@ -14,20 +14,12 @@ public class Increment {
       
       JavaRDD<String> dataRdd = jsc.textFile("/dataset/ones.txt");
 
-      JavaRDD<Integer> newRdd = dataRdd.map(new Function<String,Integer>() {
-         public Integer call(String str) {
-            return 1 + Integer.parseInt(str);
-         }
-      }); 
+      JavaRDD<Integer> newRdd = dataRdd.map( str -> 
+            Integer.parseInt(str) + 1
+      ); 
 
-/*
-      Integer sum = newRdd.reduce( new Function2<Integer,Integer,Integer>() {
-         public Integer call(Integer i, Integer j) {
-            return i+j;
-         }
-      });  
+      Integer sum = newRdd.reduce( (i,j) -> i+j );
       System.out.println(sum);
-*/
    
       newRdd.saveAsTextFile("/user/spark/output");
 
